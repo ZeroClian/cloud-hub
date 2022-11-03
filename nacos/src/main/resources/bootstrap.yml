@@ -1,0 +1,13 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: nacos
+  cloud:
+    nacos:
+      config:
+        server-addr: 47.106.120.147:8848
+        file-extension: yaml
+      discovery:
+        server-addr: 47.106.120.147:8848
