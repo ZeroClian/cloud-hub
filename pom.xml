@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>nacos</module>
+        <module>gateway</module>
     </modules>
 
     <groupId>cn.zeroclian</groupId>
