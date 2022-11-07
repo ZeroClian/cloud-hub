@@ -7,6 +7,7 @@
     <modules>
         <module>nacos</module>
         <module>gateway</module>
+        <module>service</module>
     </modules>
 
     <groupId>cn.zeroclian</groupId>
@@ -20,6 +21,13 @@
         <spring-boot-version>2.6.3</spring-boot-version>
         <nacos-version>2021.0.1.0</nacos-version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>

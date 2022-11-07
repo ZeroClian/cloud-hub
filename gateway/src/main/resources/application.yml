@@ -20,3 +20,10 @@ spring:
             - Path=/nacos/**
           filters:
             - StripPrefix=1
+        - id: service
+          uri: lb://service
+          order: 1
+          predicates:
+            - Path=/service/**
+          filters:
+            - StripPrefix=1
