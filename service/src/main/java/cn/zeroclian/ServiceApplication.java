@@ -1,5 +1,6 @@
 package cn.zeroclian;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -13,6 +14,7 @@ import org.springframework.core.env.Environment;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
+@MapperScan(basePackages = {"cn.zeroclian.dao"})
 public class ServiceApplication {
 
     private static final Logger LOG = LoggerFactory.getLogger(ServiceApplication.class);
