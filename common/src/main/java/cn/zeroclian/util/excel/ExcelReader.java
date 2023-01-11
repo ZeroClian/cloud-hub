@@ -29,7 +29,7 @@ import java.util.function.Supplier;
  */
 public class ExcelReader<T> {
 
-    private static final Logger logger = LoggerFactory.getLogger(ExcelReader.class);
+    private static final Logger logger = LoggerFactory.getLogger(Excel.class);
     private static final DefaultConversionService convert = new DefaultConversionService();
 
     private final Supplier<T> supplier;
